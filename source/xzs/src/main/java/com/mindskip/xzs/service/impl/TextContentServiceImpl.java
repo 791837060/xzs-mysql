@@ -25,7 +25,11 @@ public class TextContentServiceImpl extends BaseServiceImpl<TextContent> impleme
 
     @Override
     public TextContent selectById(Integer id) {
-        return super.selectById(id);
+        TextContent textContent = super.selectById(id);
+        if(textContent.getContent().contains("localhost")){
+            textContent.setContent(textContent.getContent().replace("localhost","192.168.3.25"));
+        }
+        return textContent;
     }
 
     @Override

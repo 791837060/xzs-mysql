@@ -1,0 +1,18 @@
+npm run serve
+
+用户名：admin 密码：123456
+
+
+http://localhost:8000/images/20231027095027.jpg
+
+http:\/\/localhost:8000\/images\/20231027095027.jpg
+
+{
+	"titleContent": "<p style=\"text-align: center;\"><img src=\"\" alt = \"微信图片_20231027095027.jpg\"/></p>",
+	"analyze": "<p>no</p>",
+	"questionItemObjects": [],
+	"correct": "8888000<br/><br/>8000888<br/><br/>8088800<br/><br/>8880000<br/><br/>8008088<br/>"
+}
+
+
+截至2022年末，深圳市常住人口为17661800人。把这个数四舍五入到万位约于()万，横线上的数读作().

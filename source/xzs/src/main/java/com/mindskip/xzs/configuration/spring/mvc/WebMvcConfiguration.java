@@ -45,6 +45,9 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/static/")
                 .setCachePeriod(31556926);
+
+        registry.addResourceHandler("/images/**").addResourceLocations("file:D://imgs/");
+        //registry.addResourceHandler("/images/**").addResourceLocations("classpath:/static/imgs/");
     }
 
     @Override

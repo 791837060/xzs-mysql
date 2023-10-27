@@ -1,0 +1,11 @@
+npm run serve
+
+账号：student / 123456
+
+用户名：teacher 密码：123456
+
+
+http:\/\/localhost:8000\/images\/微信图片_20231027095027.jpg
+
+
+\/static\/images\/微信图片_20231027095027.jpg
